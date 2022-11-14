@@ -19602,4 +19602,5 @@ pre[class*="language-"] {
 .gallery-column > img {
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 5px;
 }

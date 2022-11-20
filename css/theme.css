@@ -19610,13 +19610,11 @@ pre[class*="language-"] {
     border-radius: 5px;
 }
 
-table, th, td{
-    padding: 5px !important ;
-    border: solid 1.5px gray !important;
+.table-cert, .th-cert, .tr-cert, .td-cert {
+    font-size: 15px;
+    padding: 10px;
+    border: solid 1px gray !important;
+    
     border-collapse: collapse !important;
     text-align: center;
-}
-
-.space {
-    padding-bottom: 200px;
 }

@@ -28,7 +28,7 @@ html {
     display: none;
   }
   input, textarea, button {
-    /*width: 100%;*/
+    width: 100%;
     padding: 0.5em;
     border: none;
     font: 300 100%/1.2 Ubuntu, sans-serif;

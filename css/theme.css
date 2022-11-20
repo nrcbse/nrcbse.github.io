@@ -15516,6 +15516,28 @@ fieldset:disabled .btn {
         min-width: 19rem;
     }
 }
+
+@media (max-width: 1199.98px) {
+    .nr-head .nr {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+
+    .nr-head .nr-details {
+        font-size: 10px;
+    }
+
+    .nr-head p {
+        font-size: 10px;
+    }
+}
+
+.nr {
+    font-weight: 600; 
+    font-size: 25px;
+} 
+
 .dropup .dropdown-menu {
     box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15), 0 8px 9px -5px hsla(0, 0%, 8%, 0.06);
     transition: visibility 0.25s, opacity 0.25s, transform 0.25s;

@@ -19587,12 +19587,14 @@ pre[class*="language-"] {
 }
 
 .gallery {
-    width: 100%
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .gallery-container {
     padding: 20px;
-    width: 100%;
+    width: 80%;
     display: flex;
 }
 
@@ -19614,7 +19616,11 @@ pre[class*="language-"] {
     font-size: 15px;
     padding: 10px;
     border: solid 1px gray !important;
-    
+
     border-collapse: collapse !important;
     text-align: center;
+}
+
+.mySlides {
+    display: none;
 }

@@ -10,6 +10,7 @@
     <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-svg.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/theme.css">
     <link rel="stylesheet" href="./css/loopple/loopple.css">
+    <link rel="stylesheet" href="./css/contact-form.css">
 </head>
 
 <body>
@@ -188,7 +189,7 @@
             </div>
         </div>
     </section>-->
-    <section class="py-5">
+    <!--<section class="py-5">
         <div class="container">
             <div class="row">
                 <div style="text-align: justify; margin: auto;" class="col-lg-9">
@@ -196,7 +197,20 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
+    <section id="contact-form">
+        <form method="post" action="https://forms.un-static.com/forms/f35ab5a778a758bffb947a66d45613c8fabbbf52" id="contact" name="contact" accept-charset="utf-8">
+          <label><span>Name</span><input name="name" type="text" placeholder="Name" required/></label>
+          <label><span>Phone</span><input name="phone" type="text" placeholder="Phone" required/></label>
+          <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+          <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
+          <input name="submit" type="submit" value="Send"/>
+        </form>
+        <aside>
+          <p>Please fill in your details and queries.</p>
+          <p>We will get back to you as soon as possible.</p>
+        </aside>
+      </section>
     <footer style="padding-bottom: 10px;" class="footer py-5 bg-gradient-dark position-relative overflow-hidden">
         <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-6">
         <div class="container position-relative z-index-1">
@@ -208,11 +222,7 @@
                                 Home
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white opacity-8" href="academics.html">
-                                Academics
-                            </a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link text-white opacity-8" href="admissions.html">
                                 Admissions
@@ -262,6 +272,7 @@
     <script src="https://demos.creative-tim.com/soft-ui-design-system/assets/js/soft-design-system.min.js?v=1.0.5" type="text/javascript"></script>
     <script src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/js/plugins/countup.min.js" type="text/javascript"></script>
     <script src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/js/plugins/flatpickr.min.js"></script>
+    <script src="/js/cf.js"></script>
     <script>
         if (document.getElementById("state1")) {
                     const countUp = new CountUp("state1", document.getElementById("state1").getAttribute("countTo"));

@@ -329,6 +329,7 @@ select:disabled {
 [type="submit"],
 button {
     -webkit-appearance: button;
+    appearance: button;
 }
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -380,9 +381,11 @@ legend + * {
 [type="search"] {
     outline-offset: -2px;
     -webkit-appearance: textfield;
+    appearance: textfield;
 }
 ::-webkit-search-decoration {
     -webkit-appearance: none;
+    appearance: none;
 }
 ::-webkit-color-swatch-wrapper {
     padding: 0;
@@ -393,6 +396,7 @@ legend + * {
 ::-webkit-file-upload-button {
     font: inherit;
     -webkit-appearance: button;
+    appearance: button;
 }
 output {
     display: inline-block;
@@ -18593,6 +18597,7 @@ p {
 .numInputWrapper input::-webkit-outer-spin-button {
     margin: 0;
     -webkit-appearance: none;
+    appearance: none;
 }
 .numInputWrapper span {
     position: absolute;
